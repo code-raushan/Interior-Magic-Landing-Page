@@ -10,5 +10,6 @@ It took around 2 hours to complete the project and there were many intersting hi
 
 
 Below is the link and the view of the project👇👇👇<br>
+[Interior Magic](interior-magic.netlify.app)
 
 ![Interior-Magic](project10css.png)
