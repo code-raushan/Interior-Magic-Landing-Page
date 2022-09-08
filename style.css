@@ -12,6 +12,9 @@ body{
     height: 100vh;
 
 }
+li:hover{
+    cursor: pointer;
+}
 nav{
     padding: 30px 60px;
     display: flex;
@@ -62,10 +65,12 @@ main{
 .col{
     display: flex;
     gap: 20px;
+
 }
 .text{
     font-family: Montserrat;
     font-size: 25px;
+    margin-right: 800px;
 }
 .card1{
     display: flex;
@@ -106,7 +111,85 @@ main{
     margin-right: 130px;
     border-radius: 20px;
 }
-
+@media screen and (max-width: 640px){
+    nav{
+        padding: 10px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav>h1{
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    .nav-content{
+        padding-top: 15px;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .call{
+        display: none;
+    }
+    .underline{
+        padding-bottom: 10px;
+    }
+    main{
+        padding-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        gap: 20px;
+        flex: 1;
+    }
+    .col{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .card1{
+        display: flex;
+        flex-direction: column;
+        position: static;
+        padding: 10px 10px;
+        background-color: rgba(48, 70, 87, 0.767);
+    }
+    .icon1{
+        padding: 8px 35px 5px 10px;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .icon2{
+        padding: 5px;
+        text-align: center;
+        margin: 0 100px;
+    }
+    .text{
+        margin-right: 0;
+        text-align: center;
+        font-size: 20px;
+        
+    }
+    .card2{
+        margin: 20px;
+        padding: 10px 10px;
+        background-color: rgba(48, 70, 87, 0.767);
+    }
+    .card-text{
+        margin-top: 15px;
+        text-align: center;
+    }
+    .col-btn{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+}
 
 
 
